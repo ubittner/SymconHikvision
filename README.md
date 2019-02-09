@@ -5,6 +5,8 @@
 ![Version](https://img.shields.io/badge/Modul_Build-1-blue.svg)
 ![Version](https://img.shields.io/badge/Code-PHP-blue.svg)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![StyleCI](https://github.styleci.io/repos/169845075/shield?branch=master&style=flat)](https://github.styleci.io/repos/169845075)
+
 
 ![Logo](imgs/logo.png)
 

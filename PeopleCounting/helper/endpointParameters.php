@@ -3,7 +3,7 @@
 // Declare
 declare(strict_types=1);
 
-trait EndpointParameters
+trait endpointParameters
 {
     //#################### Endpoint parameters
 
@@ -60,13 +60,13 @@ trait EndpointParameters
         $data = null;
         switch ($State) {
             case 0:
-                $trigger = "low";
+                $trigger = 'low';
                 break;
             case 1:
-                $trigger = "high";
+                $trigger = 'high';
                 break;
             default:
-                $trigger = "low";
+                $trigger = 'low';
         }
         $method = 'PUT';
         $endpoint = '/ISAPI/System/IO/outputs/' . $Output . '/trigger';
@@ -105,14 +105,14 @@ trait EndpointParameters
             $url = 'http://' . $username . ':' . $password . '@' . $host . $Endpoint;
             $curl = curl_init();
             curl_setopt_array($curl, [
-                CURLOPT_URL => $url,
+                CURLOPT_URL            => $url,
                 CURLOPT_CONNECTTIMEOUT => 5,
-                CURLOPT_TIMEOUT => 5,
-                CURLOPT_CUSTOMREQUEST => $Method,
+                CURLOPT_TIMEOUT        => 5,
+                CURLOPT_CUSTOMREQUEST  => $Method,
                 CURLOPT_RETURNTRANSFER => 1,
-                CURLOPT_HEADER => 0,
-                CURLOPT_POSTFIELDS => $Postfields,
-                CURLOPT_HTTPHEADER => ['Content-type: text/xml']]);
+                CURLOPT_HEADER         => 0,
+                CURLOPT_POSTFIELDS     => $Postfields,
+                CURLOPT_HTTPHEADER     => ['Content-type: text/xml']]);
             $result = curl_exec($curl);
             curl_close($curl);
             $xmlData = new SimpleXMLElement($result);

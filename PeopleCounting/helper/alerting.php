@@ -3,7 +3,7 @@
 // Declare
 declare(strict_types=1);
 
-trait Alerting
+trait alerting
 {
     //#################### Alerting
 
@@ -32,7 +32,7 @@ trait Alerting
         if (!empty($scripts)) {
             foreach ($scripts as $script) {
                 if ($script->UseScript) {
-                    IPS_RunScriptEx($script->ID, array('Status' => $State));
+                    IPS_RunScriptEx($script->ID, ['Status' => $State]);
                 }
             }
         }

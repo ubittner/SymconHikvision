@@ -297,7 +297,7 @@ class HikvisionPeopleCounting extends IPSModule
                     throw new Exception('Invalid Ident');
             }
         } catch (Exception $e) {
-            $this->LogMessage('Hikvision ' . $this->InstanceID . ', '. $e->getMessage(), 10205);
+            $this->LogMessage('Hikvision ' . $this->InstanceID . ', ' . $e->getMessage(), 10205);
         }
     }
 

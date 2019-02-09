@@ -1,0 +1,13 @@
+{
+  "id": "{05986539-30D5-6B74-CD44-2573FD73BAE8}",
+  "name": "HikvisionPeopleCounting",
+  "type": 3,
+  "vendor": "Hikvision",
+  "aliases": [
+    "PeopleCounting"
+  ],
+  "parentRequirements": ["{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}"],
+  "childRequirements": [],
+  "implemented": ["{018EF6B5-AB94-40C6-AA53-46943E824ACF}"],
+  "prefix": "HV"
+}

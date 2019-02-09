@@ -1,0 +1,644 @@
+{
+  "elements": [
+    {
+      "type": "Image",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "type": "Label",
+      "caption": "Hikvision People Counting - A joint project of Normen Thiel and Ulrich Bittner"
+    },
+    {
+      "type": "Label",
+      "caption": " "
+    },
+    {
+      "type": "Label",
+      "caption": "Description:"
+    },
+    {
+      "type": "Label",
+      "caption": "This instance integrates a Hikvision camera for people counting."
+    },
+    {
+      "type": "Label",
+      "caption": "This allows you to monitor the number of people in a room."
+    },
+    {
+      "type": "Label",
+      "caption": "If the maximum number of persons is exceeded, a notification and/or alarm can be issued."
+    },
+    {
+      "type": "Label",
+      "caption": "In case of an alarm you can switch further variables and/or execute scripts."
+    },
+    {
+      "type": "Label",
+      "caption": "For further information, please refer to the documentation or the notes here in the configuration."
+    },
+    {
+      "type": "Label",
+      "caption": " "
+    },
+    {
+      "type": "Label",
+      "caption": "Supported models:"
+    },
+    {
+      "type": "Label",
+      "caption": "IDS-2CD6810F/C"
+    },
+    {
+      "type": "Label",
+      "caption": " "
+    },
+    {
+      "type": "Label",
+      "caption": "Configuration:"
+    },
+    {
+      "type": "ExpansionPanel",
+      "caption": "(0) Instance information",
+      "items": [
+        {
+          "type": "Label",
+          "caption": "Symcon version:\t5.00"
+        },
+        {
+          "type": "Label",
+          "caption": "Module version:\t1.00-1"
+        },
+        {
+          "type": "Label",
+          "caption": "Date:\t\t\tJanuary 11, 2019"
+        },
+        {
+          "type": "Label",
+          "caption": "Time:\t\t\t18:00"
+        },
+        {
+          "type": "Label",
+          "caption": "Developer:\t\tUlrich Bittner"
+        },
+        {
+          "type": "Label",
+          "caption": "Prefix:\t\t\tHV"
+        }
+      ]
+    },
+    {
+      "type": "ExpansionPanel",
+      "caption": "(1) General settings",
+      "items": [
+        {
+          "type": "Label",
+          "caption": "Please select whether a monitoring should be used."
+        },
+        {
+          "type": "CheckBox",
+          "name": "UseMonitoring",
+          "caption": "Use monitoring"
+        },
+        {
+          "type": "Label",
+          "caption": " "
+        },
+        {
+          "type": "Label",
+          "caption": "Please enter a unique room designation."
+        },
+        {
+          "type": "ValidationTextBox",
+          "name": "RoomDesignation",
+          "caption": "Room designation"
+        }
+      ]
+    },
+    {
+      "type": "ExpansionPanel",
+      "caption": "(2) Camera",
+      "items": [
+        {
+          "type": "Label",
+          "caption": "Please enter the IP address."
+        },
+        {
+          "type": "ValidationTextBox",
+          "name": "Host",
+          "caption": "Host"
+        },
+        {
+          "type": "Label",
+          "caption": "Please specify the timeout in milliseconds."
+        },
+        {
+          "type": "NumberSpinner",
+          "name": "Timeout",
+          "caption": "Timeout",
+          "suffix": "ms"
+        },
+        {
+          "type": "Label",
+          "caption": " "
+        },
+        {
+          "type": "Label",
+          "caption": "Please enter a valid user name."
+        },
+        {
+          "type": "ValidationTextBox",
+          "name": "Username",
+          "caption": "Username"
+        },
+        {
+          "type": "Label",
+          "caption": "Please enter the password of the user."
+        },
+        {
+          "type": "PasswordTextBox",
+          "name": "Password",
+          "caption": "Password"
+        },
+        {
+          "type": "Label",
+          "caption": " "
+        },
+        {
+          "type": "Label",
+          "caption": "Please specify the channel."
+        },
+        {
+          "type": "NumberSpinner",
+          "name": "Channel",
+          "caption": "Channel"
+        }
+      ]
+    },
+    {
+      "type": "ExpansionPanel",
+      "caption": "(3) Thresholds",
+      "items": [
+        {
+          "type": "Label",
+          "caption": "Please specify the maximum number of people."
+        },
+        {
+          "type": "NumberSpinner",
+          "name": "LimitPeopleMaximum",
+          "caption": "Number",
+          "suffix": "People"
+        },
+        {
+          "type": "Label",
+          "caption": " "
+        },
+        {
+          "type": "Label",
+          "caption": "Please specify the number of persons for the critical condition."
+        },
+        {
+          "type": "NumberSpinner",
+          "name": "ThresholdCriticalState",
+          "caption": "Number",
+          "suffix": "People"
+        }
+      ]
+    },
+    {
+      "type": "ExpansionPanel",
+      "caption": "(4) Notification",
+      "items": [
+        {
+          "type": "Label",
+          "caption": "Please enter a title description (max. 32 characters)."
+        },
+        {
+          "type": "ValidationTextBox",
+          "name": "TitleDescription",
+          "caption": "Title description"
+        },
+        {
+          "type": "Label",
+          "caption": " "
+        },
+        {
+          "type": "Label",
+          "caption": "Please select the notification variants."
+        },
+        {
+          "type": "List",
+          "name": "NotificationVariants",
+          "caption": "Notification variants",
+          "rowCount": 3,
+          "add": true,
+          "delete": true,
+          "columns": [
+            {
+              "name": "Status",
+              "caption": "Status",
+              "width": "400px",
+              "add": "PLEASE_SELECT",
+              "edit": {
+                "type": "Select",
+                "options": [
+                  {
+                    "caption": "Please select",
+                    "value": "PLEASE_SELECT"
+                  },
+                  {
+                    "caption": "The number of people is uncritical.",
+                    "value": 0
+                  },
+                  {
+                    "caption": "The number of people is critical!",
+                    "value": 1
+                  },
+                  {
+                    "caption": "The number of people has exceeded the limit!",
+                    "value": 2
+                  }
+                ]
+              }
+            },
+            {
+              "name": "MessageText",
+              "caption": "Message text",
+              "width": "auto",
+              "add": "",
+              "edit": {
+                "type": "ValidationTextBox"
+              }
+            },
+            {
+              "name": "UseNotification",
+              "caption": "Use notification",
+              "width": "250px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "caption": "(4.1) WebFront notification"
+        },
+        {
+          "type": "Label",
+          "caption": "Please add the WebFronts for notification or delete the entries which are not used anymore."
+        },
+        {
+          "type": "List",
+          "name": "WebFrontNotificationList",
+          "caption": "WebFronts für Benachrichtigung",
+          "rowCount": 5,
+          "add": true,
+          "delete": true,
+          "sort": {
+            "column": "Position",
+            "direction": "ascending"
+          },
+          "columns": [
+            {
+              "name": "Position",
+              "caption": "Position",
+              "width": "100px",
+              "add": 1,
+              "edit": {
+                "type": "NumberSpinner"
+              }
+            },
+            {
+              "name": "ID",
+              "caption": "WebFront ID",
+              "width": "auto",
+              "add": 0,
+              "edit": {
+                "type": "SelectInstance"
+              }
+            },
+            {
+              "name": "UseNotification",
+              "caption": "Use notification",
+              "width": "250px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "caption": "(4.2) Push notification"
+        },
+        {
+          "type": "Label",
+          "caption": "Please add the WebFronts that should be used for push notification or delete entries that are no longer needed."
+        },
+        {
+          "type": "List",
+          "name": "PushNotificationList",
+          "caption": "WebFronts for push notification",
+          "rowCount": 5,
+          "add": true,
+          "delete": true,
+          "sort": {
+            "column": "Position",
+            "direction": "ascending"
+          },
+          "columns": [
+            {
+              "name": "Position",
+              "caption": "Position",
+              "width": "100px",
+              "add": 1,
+              "edit": {
+                "type": "NumberSpinner"
+              }
+            },
+            {
+              "name": "ID",
+              "caption": "WebFront ID",
+              "width": "auto",
+              "add": 0,
+              "edit": {
+                "type": "SelectInstance"
+              }
+            },
+            {
+              "name": "UseNotification",
+              "caption": "Use notification",
+              "width": "250px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "caption": "(4.3) E-mail notification"
+        },
+        {
+          "type": "Label",
+          "caption": "Please add the e-mail recipients for notification or delete entries that are no longer needed."
+        },
+        {
+          "type": "List",
+          "name": "EmailRecipientList",
+          "caption": "E-mail recipients",
+          "rowCount": 5,
+          "add": true,
+          "delete": true,
+          "sort": {
+            "column": "Position",
+            "direction": "ascending"
+          },
+          "columns": [
+            {
+              "name": "Position",
+              "caption": "Position",
+              "width": "100px",
+              "add": 1,
+              "edit": {
+                "type": "NumberSpinner"
+              }
+            },
+            {
+              "name": "ID",
+              "caption": "E-mail ID (SMTP)",
+              "width": "auto",
+              "add": 0,
+              "edit": {
+                "type": "SelectInstance"
+              }
+            },
+            {
+              "name": "Name",
+              "caption": "Name",
+              "width": "300px",
+              "add": "",
+              "edit": {
+                "type": "ValidationTextBox"
+              }
+            },
+            {
+              "name": "Address",
+              "caption": "E-mail address",
+              "width": "300px",
+              "add": "@",
+              "edit": {
+                "type": "ValidationTextBox"
+              }
+            },
+            {
+              "name": "UseNotification",
+              "caption": "Use notification",
+              "width": "250px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ExpansionPanel",
+      "caption": "(5) Alerting",
+      "items": [
+        {
+          "type": "Label",
+          "caption": "If the maximum number of persons is exceeded, the alarm output of the camera can be switched."
+        },
+        {
+          "type": "CheckBox",
+          "name": "UseCameraAlarmOutput",
+          "caption": "Use alarm output"
+        },
+        {
+          "type": "Label",
+          "caption": " "
+        },
+        {
+          "type": "Label",
+          "caption": "If the maximum number of persons is exceeded, a variable can be switched."
+        },
+        {
+          "type": "Label",
+          "caption": "Please add the variables that should be used for the alerting or delete entries that are no longer needed."
+        },
+        {
+          "type": "List",
+          "name": "TargetVariableList",
+          "caption": "Variables",
+          "rowCount": 5,
+          "add": true,
+          "delete": true,
+          "sort": {
+            "column": "Position",
+            "direction": "ascending"
+          },
+          "columns": [
+            {
+              "name": "Position",
+              "caption": "Position",
+              "width": "100px",
+              "add": 1,
+              "edit": {
+                "type": "NumberSpinner"
+              }
+            },
+            {
+              "name": "ID",
+              "caption": "Variable ID",
+              "width": "auto",
+              "add": 0,
+              "edit": {
+                "type": "SelectVariable"
+              }
+            },
+            {
+              "name": "UseVariable",
+              "caption": "Use variable",
+              "width": "250px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Label",
+          "caption": "If the maximum number of persons is exceeded, a script can be executed."
+        },
+        {
+          "type": "Label",
+          "caption": "The status is passed to the script and can be evaluated with $_IPS['Status'] in the script."
+        },
+        {
+          "type": "Label",
+          "caption": "Please add the scripts that should be used for the alerting or delete entries that are no longer needed."
+        },
+        {
+          "type": "List",
+          "name": "TargetScriptList",
+          "caption": "Scripts",
+          "rowCount": 5,
+          "add": true,
+          "delete": true,
+          "sort": {
+            "column": "Position",
+            "direction": "ascending"
+          },
+          "columns": [
+            {
+              "name": "Position",
+              "caption": "Position",
+              "width": "100px",
+              "add": 1,
+              "edit": {
+                "type": "NumberSpinner"
+              }
+            },
+            {
+              "name": "ID",
+              "caption": "Script ID",
+              "width": "auto",
+              "add": 0,
+              "edit": {
+                "type": "SelectObject"
+              }
+            },
+            {
+              "name": "UseScript",
+              "caption": "Use script",
+              "width": "250px",
+              "add": true,
+              "edit": {
+                "type": "CheckBox"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Label",
+      "caption": "(0) Instance information"
+    },
+    {
+      "type": "Button",
+      "caption": "Manual",
+      "onClick": "echo 'https://github.com/ubittner/SymconHikvision';"
+    },
+    {
+      "type": "Label",
+      "caption": "(2) Camera"
+    },
+    {
+      "type": "Button",
+      "caption": "Display camera information",
+      "onClick": "$info = HV_GetCameraInformation($id); print_r($info);"
+    },
+    {
+      "type": "Button",
+      "caption": "Reset people counter",
+      "onClick": "HV_ResetPeopleCounter($id);"
+    },
+    {
+      "type": "Button",
+      "caption": "Display message list",
+      "onClick": "HV_DisplayMessageList($id);"
+    },
+    {
+      "type": "RowLayout",
+      "items": [
+        {
+          "type": "Button",
+          "caption": "Alarm output 1 off",
+          "onClick": "HV_TriggerCameraAlarmOutput($id, 1, false);"
+        },
+        {
+          "type": "Button",
+          "caption": "Alarm output 1 on",
+          "onClick": "HV_TriggerCameraAlarmOutput($id, 1, true);"
+        }
+      ]
+    }
+  ],
+  "status": [
+    {
+      "code": 101,
+      "icon": "active",
+      "caption": "Hikvision PeopleCounting will be created"
+    },
+    {
+      "code": 102,
+      "icon": "active",
+      "caption": "Hikvision PeopleCounting is active"
+    },
+    {
+      "code": 103,
+      "icon": "active",
+      "caption": "Hikvision PeopleCounting will be deleted"
+    },
+    {
+      "code": 104,
+      "icon": "inactive",
+      "caption": "Hikvision PeopleCounting is inactive"
+    },
+    {
+      "code": 201,
+      "icon": "inactive",
+      "caption": "Hikvision PeopleCounting has an error, see logfile"
+    }
+  ]
+}

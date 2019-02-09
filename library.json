@@ -1,0 +1,13 @@
+{
+  "id": "{78F1F259-B1ED-2723-B27E-4F35A0EABF86}",
+  "author": "Ulrich Bittner",
+  "name": "Hikvision",
+  "url": "https://www.hikvision.com/de",
+  "compatibility": {
+    "version": "5.0",
+    "date": 1491343200
+  },
+  "version": "1.00",
+  "build": 1,
+  "date": 1547226000
+}
